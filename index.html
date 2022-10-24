@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to CSS</title>
+</head>
+<style>
+    /* global selector */
+    * {
+        /* color: green; */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 24px;
+
+    }
+
+    body {
+
+        background-color: beige;
+    }
+    
+    /* id selector */
+    #contact {
+        background-color: brown;
+    }
+
+    p {
+        color: darkmagenta;
+    }
+
+    /* class selector */
+    .my-ps {
+        background-color: red;
+    }
+
+    .my-width {
+        width: 200px
+    }
+
+    li {
+        color: hotpink;
+    }
+
+    footer {
+        background-color: orange;
+    }
+
+    /* child selector */
+    footer>h3 {
+        background-color: blueviolet;
+    } 
+
+    footer > ul > li {
+        color: gainsboro;
+    }
+
+</style>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li style="color: red; font-size: x-large; background: chartreuse;">About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <p class="my-ps my-width">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia aspernatur, nam quae ullam rerum doloremque,
+        adipisci iste unde nihil vel illo repudiandae necessitatibus exercitationem molestias dolores dolor tempore
+        perspiciatis sit?</p>
+    <p class="my-ps">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo dolore laboriosam corporis aperiam assumenda,
+        deleniti nisi voluptas consequuntur amet et qui iure non officiis, aliquam tenetur dicta laudantium velit
+        maiores?
+        Inventore voluptates repudiandae architecto blanditiis commodi, impedit laboriosam voluptatem ullam dolorem
+        accusantium optio natus eius assumenda animi necessitatibus temporibus iste laudantium eligendi unde voluptas
+        modi eaque. Sed rem quod repellendus!
+        Impedit, et assumenda veniam expedita explicabo nam ut dignissimos nihil ipsam omnis? Blanditiis aliquid soluta
+        quisquam amet, magnam earum dolorum voluptates ratione eum nihil optio nesciunt assumenda quidem vitae. Fugit.
+        Hic quae, consequatur aliquam ullam nihil eaque, doloremque, dolor tempora ipsa recusandae alias harum? Officia
+        vel suscipit quis, error illo maiores eveniet quam, quibusdam blanditiis, deserunt placeat modi accusamus
+        soluta?
+        Dolorem qui est minus labore, reprehenderit exercitationem aliquam aliquid sequi odio ut reiciendis incidunt
+        culpa provident alias aut minima magnam nulla? Suscipit, veniam. Rerum modi distinctio consequuntur numquam
+        ullam quis.</p>
+    <footer>
+        <h3>This is my CSS</h3>
+        <ul>
+            <li>About</li>
+            <li>Services</li>
+            <li> id="contact">Contact</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
